@@ -10,6 +10,7 @@ import image3 from "../../../public/icon-22.png";
 import CustomBTN from "../components/CustomBTN";
 import bg from "../../../public/call-to-action-bg.png";
 import RevealComponent from "../components/RevealComponent";
+import Link from "next/link";
 
 const page = () => {
   const customBG = {
@@ -104,9 +105,11 @@ const page = () => {
               </RevealComponent>
             </Col>
             <RevealComponent y={100} duration={500} delay={0} threshold={0.75}>
-              <div className="text-center">
-                <CustomBTN text="ابدأ الان" arrow={true} />
-              </div>
+            <div className="text-center">
+            <Link href="/contact">
+            <CustomBTN text="ابدأ الان" arrow={true} />
+            </Link>
+          </div>
             </RevealComponent>
           </Row>
           {/* end our servises */}

@@ -86,6 +86,7 @@ export default function Home() {
                     icon={icon1}
                     title="SAAED REALESTATE | نظام السعد العقاري"
                     description="قم بإدارة جميع عقاراتك الآن من لوحة تحكم واحدة."
+                    target="/our-product/SAAED-REALESTATE"
                   />
                 </RevealComponent>
               </Col>
@@ -106,6 +107,7 @@ export default function Home() {
                     icon={icon2}
                     title="SAAED CRM | إدارة علاقات العملاء"
                     description="اضمن رضا عملائك عبر إداراتنا الفعالة لجميع مراحل رحلة العميل."
+                    target="/our-product/SAAED-CRM"
                   />
                 </RevealComponent>
               </Col>
@@ -126,6 +128,7 @@ export default function Home() {
                     icon={icon3}
                     title="SAAED POS | نقاط البيع"
                     description="نقدم لك نقطة بيع عالية الأداء تسهل لك إدارة المبيعات والمشتريات بكفاءة"
+                    target="/our-product/SAAED-POS"
                   />
                 </RevealComponent>
               </Col>
@@ -146,6 +149,7 @@ export default function Home() {
                     icon={icon4}
                     title="SAAED RST | نظام إدارة المطاعم والمقاهي"
                     description="إدارة جميع عمليات مطعمك من مكان واحد وبكفاءة عالية"
+                    target="/our-product/SAAED-RST"
                   />
                 </RevealComponent>
               </Col>
@@ -166,6 +170,7 @@ export default function Home() {
                     shadow={true}
                     title="SAAEDPAY | نظام السعد للمدفوعات"
                     description="نقدم لكم حلول دفع مرنة ومتعددة الميزات"
+                    target="/our-product/SAAED-PAY"
                   />
                 </RevealComponent>
               </Col>
@@ -186,6 +191,7 @@ export default function Home() {
                     icon={icon6}
                     title="SAAED ERP | نظام السعد للمؤسسات"
                     description="احصل على آلية إدارة سلسة لجميع موارد وعمليات شركتك ."
+                    target="/our-product/SAAED-ERP"
                   />
                 </RevealComponent>
               </Col>
@@ -273,6 +279,7 @@ export default function Home() {
                   shadow={true}
                   title="خدمات برمجة المواقع والتطبيقات"
                   description="اطلق موقعك أو تطبيقك الإلكتروني الآن بجودة تصميم عالية وبنية برمجية قوية."
+                  target="/website-design-and-programming"
                 />
               </RevealComponent>
             </Col>
@@ -292,6 +299,7 @@ export default function Home() {
                   shadow={true}
                   title="خدمة الإستـضافة السحابية"
                   description="كفاءة الأداء والمرونة في الإدارة بسرعة وأمان مع خدماتنــا السحـــابية."
+                  target="/cloud-hosting"
                 />
               </RevealComponent>
             </Col>
@@ -311,6 +319,7 @@ export default function Home() {
                   icon={icon12}
                   title="خدمات تصميم الأنظمة"
                   description="اجمع التصميم الذكي والحل التقني في نظام واحد يسهّل سير أعمالك."
+                  target="/systems-design"
                 />
               </RevealComponent>
             </Col>

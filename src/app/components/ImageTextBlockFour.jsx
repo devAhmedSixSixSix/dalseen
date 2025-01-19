@@ -5,6 +5,7 @@ import Image from "next/image";
 import MainTitleAndDescription from "./MainTitleAndDescription";
 import CustomBTN from "./CustomBTN";
 import RevealComponent from "./RevealComponent";
+import Link from "next/link";
 
 const ImageTextBlockFour = ({ image }) => {
   return (
@@ -21,7 +22,9 @@ const ImageTextBlockFour = ({ image }) => {
               />
             </RevealComponent>
             <RevealComponent y={100} duration={500} delay={100} threshold={0.75}>
+            <Link href="/contact">
               <CustomBTN text="ابدأ الان" arrow={true} />
+              </Link>
             </RevealComponent>
           </Col>
           <Col xs={12} lg={6} className="d-flex align-items-center justify-content-center">

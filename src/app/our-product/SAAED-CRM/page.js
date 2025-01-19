@@ -12,6 +12,7 @@ import icon4 from "../../../../public/icon-18.png";
 import icon5 from "../../../../public/icon-19.png";
 import CustomBTN from "@/app/components/CustomBTN";
 import RevealComponent from "@/app/components/RevealComponent";
+import Link from "next/link";
 const page = () => {
   return (
     <div>
@@ -38,7 +39,9 @@ const page = () => {
           margin="m-auto"
         />
         <div className="text-center mt-5">
-          <CustomBTN text="ابدأ الان" arrow={true} />
+          <Link href="/contact">
+              <CustomBTN text="ابدأ الان" arrow={true} />
+              </Link>
         </div>
         <MainTitleAndDescription
           mainTitle="مميزات النـظام"

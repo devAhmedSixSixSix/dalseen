@@ -6,6 +6,7 @@ import image from "../../../public/product-3-2.png";
 import ImageTextBlockTwoCard from "./ImageTextBlockTwoCard";
 import CustomBTN from "./CustomBTN";
 import RevealComponent from "./RevealComponent";
+import Link from "next/link";
 
 const ImageTextBlockTwo = () => {
   return (
@@ -40,7 +41,9 @@ const ImageTextBlockTwo = () => {
             </Row>
             <RevealComponent y={100} duration={500} delay={0} threshold={0.75}>
               <div className="mt-4">
-                <CustomBTN text="ابدأ الان" arrow={true} />
+                <Link href="/contact">
+              <CustomBTN text="ابدأ الان" arrow={true} />
+              </Link>
               </div>
             </RevealComponent>
           </Col>

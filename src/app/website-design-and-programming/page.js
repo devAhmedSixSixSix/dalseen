@@ -8,6 +8,7 @@ import imageTwo from "../../../public/service-1-1.png";
 import image1 from "../../../public/icon-1.png";
 import CustomBTN from "../components/CustomBTN";
 import RevealComponent from "../components/RevealComponent";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -107,7 +108,9 @@ const page = () => {
         </Row>
         <RevealComponent y={100} duration={500} delay={0} threshold={0.75}>
           <div className="text-center">
+            <Link href="/contact">
             <CustomBTN text="ابدأ الان" arrow={true} />
+            </Link>
           </div>
         </RevealComponent>
         {/* end give us ideas */}

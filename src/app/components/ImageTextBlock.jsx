@@ -7,6 +7,7 @@ import logo1 from "../.../../../../public/logo-1 (1).png";
 import logo2 from "../.../../../../public/logo-2 (1).png";
 import CustomBTNTwo from "./CustomBTNTwo";
 import RevealComponent from "./RevealComponent";
+import Link from "next/link";
 
 const ImageTextBlock = ({
   title,
@@ -47,7 +48,9 @@ const ImageTextBlock = ({
               </p>
             </RevealComponent>
             <RevealComponent y={100} duration={500} delay={300} threshold={0}>
-              {oneBTN && <CustomBTN text="تصفح منتجاتنا" arrow={false} />}
+              {oneBTN &&   <Link href="/contact">
+              <CustomBTN text="أتصل بنا" arrow={ true} />
+              </Link>}
             </RevealComponent>
             <RevealComponent
               y={100}

@@ -64,10 +64,11 @@ function NavigationBar() {
                     <hr/>
                     <NavDropdown.Item  href="/our-product/SAAED-REALESTATE">SAAED REALESTATE | نظام السعد العقاري</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link as={Link} href="#" className="fw-medium">المتجر</Nav.Link>
                 <Nav.Link as={Link} href="/contact" className="fw-medium">أتصل بنا</Nav.Link>
                 </Nav>
-                  <CustomBTN text="ابدأ الان" arrow={true} />
+                  <Link href="/contact">
+              <CustomBTN text="ابدأ الان" arrow={true} />
+              </Link>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>

@@ -16,6 +16,7 @@ import icon5 from "../../../../public/icon-8.png";
 import icon6 from "../../../../public/icon-7.png";
 import CustomBTN from "@/app/components/CustomBTN";
 import RevealComponent from "@/app/components/RevealComponent";
+import Link from "next/link";
 
 const page = () => {
   const tapleOneItems = [
@@ -190,7 +191,9 @@ const page = () => {
             />
           </Col>
           <div className="text-center py-5">
-            <CustomBTN text="ابدأ الان" arrow={true} />
+          <Link href="/contact">
+              <CustomBTN text="ابدأ الان" arrow={true} />
+              </Link>
           </div>
         </Row>
         <p className="text-center py-5">

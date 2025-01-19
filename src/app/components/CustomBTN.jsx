@@ -11,7 +11,7 @@ const CustomBTN = ({text, arrow}) => {
   return (
     <div>
         <Button
-            style={bg} className="py-2 border-0 px-4 rounded-pill fw-bold">
+            style={bg} className="py-2 border-0 pe-3 rounded-pill fw-bold">
               {text} {arrow ? <IoIosArrowRoundBack size={32}/> : null}</Button>
     </div>
   )
